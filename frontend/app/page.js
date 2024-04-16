@@ -26,7 +26,7 @@ export default function Home() {
 
       {/* Hero-section */}
       <section className="flex-grow flex flex-col justify-center items-center">
-        <h1 class="text-5xl">Välkommen till banken!</h1>
+        <h1 className="text-5xl">Välkommen till banken!</h1>
         <h3>Utforska våra tjänster nedan:</h3>
         <div className="flex space-x-10">
           <Link

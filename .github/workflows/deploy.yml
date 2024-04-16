@@ -22,7 +22,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 22
           source: "."
-          target: "/home/ubuntu/docker-test2"
+          target: "/home/ubuntu/docker-ci_cd"
 
       - name: Run Docker on EC2
         uses: appleboy/ssh-action@master

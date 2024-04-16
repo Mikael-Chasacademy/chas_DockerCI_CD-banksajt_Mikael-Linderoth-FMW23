@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Go to frontend folder
-        run: cd frontend
-
       - name: Install dependencies
         working-directory: ./frontend
         run: npm install

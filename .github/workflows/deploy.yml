@@ -23,6 +23,7 @@ jobs:
         run: cd frontend
 
       - name: Install dependencies
+        working-directory: ./frontend
         run: npm install
 
       - name: Run Tests
